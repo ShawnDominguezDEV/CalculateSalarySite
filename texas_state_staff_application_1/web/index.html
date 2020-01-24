@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Shawn Dominguez & Jonathan Mangus
+    CIS 4318 Fall 2019
+    Project 1 -->
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="CSS/style.css" rel="stylesheet"/>
+</head>
+<body>
+<form action="employeeList" method="post">
+    <input type="hidden" name="fromPage" value="addEmployee">
+
+    <label>First name:</label>
+    <input type="text" name="firstName" id="labelStyle" required><br>
+    <label>Last name:</label>
+    <input type="text" name="lastName" required><br>
+    <label>Monthly salary:</label>
+    <input type="number" name="monthlySalary" required><br>
+    <label>Months of payment:</label>
+    <input type="number" name="monthsOfPayment" required><br>
+
+    <input type="submit" value="Calculate" id="submitButton">
+</form>
+
+</body>
+</html>
